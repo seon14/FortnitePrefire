@@ -15,8 +15,8 @@ while True:
     screen = pg.screenshot()
     current_color = screen.getpixel((X, Y))
 
-    if kb.is_pressed("F2"):
-        print("F2 Clicked")
+    if kb.is_pressed("d"):
+        print("d Clicked")
         initial_color = pg.pixel(X, Y)
 
         color_difference = calculate_color_difference(initial_color, current_color)
